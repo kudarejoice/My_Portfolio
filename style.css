@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    text-align: center;
-}
+
 /* Navbar */
 .navbar {
     display: flex;
@@ -170,7 +168,9 @@ home::before {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    color: black;
     text-align: center;
+    text-decoration: none;
 }
 
 .row{
@@ -202,17 +202,15 @@ home::before {
     flex-direction: column;
     box-sizing: border-box;
     background-color: rgb(153, 107, 165);
-    color: white;
+    color: rgb(240, 192, 178);
     padding: 20px;
     align-items: center;
-    /* margin: 20px 0px;  */
 }
 .form{
     display: flex;
     flex-direction: column;
     box-sizing: border-box; 
     align-items: right; 
-    
     justify-content: right; 
 }  
 .input{
